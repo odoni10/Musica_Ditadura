@@ -6,6 +6,10 @@ Canção original em português brasileiro. A letra em [lyrics/letra.txt](lyrics
 
 **V2: somente uma prévia de 30 segundos**, com voz masculina adulta em registro médio-grave e MPB acústica sóbria e tensa. A faixa completa depende da aprovação auditiva do usuário. Configuração em [config/artistic-preview-v2.json](config/artistic-preview-v2.json), análise em [docs/reference-analysis-v2.md](docs/reference-analysis-v2.md). Não há liberação automática por Whisper ou por medições de áudio.
 
+## Prévia V2 pronta para avaliação
+
+[Ouvir ou baixar MP3 da V2 — 30 segundos](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/music/samples/mpb-masculina-v2-preview-30s.mp3). MP3 estéreo, 48 kHz, 320 kbps. [FLAC original preservado](samples/mpb-masculina-v2-preview-30s.flac). A execução terminou após essa única prévia. Nenhuma faixa completa V2 foi iniciada. O resultado existente foi recuperado sem nova geração ou mudança de configuração; a próxima etapa depende da aprovação auditiva explícita do usuário.
+
 As referências enviadas ficam somente em `/workspace/attachments/` e `/workspace/music-reference/v2/`. Não são enviadas ao GitHub nem passadas ao gerador como cover, amostra, clonagem ou continuação de áudio. Servem para extrair características abstratas. `musica.zip` excedeu o limite de transferência de 32 MiB; a análise usa o MP3 combinado e os cinco stems presentes em `vozes.zip`.
 
 Prévia V1 descartada, preservada apenas para histórico: [MP3 antigo](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/music/samples/fp32-preview-30s.mp3).
