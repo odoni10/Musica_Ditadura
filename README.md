@@ -4,11 +4,11 @@ Canção original em português brasileiro. A letra em [lyrics/letra.txt](lyrics
 
 **Estado atual: V1 descartada por direção artística.** A geração integral anterior foi cancelada e a automação de finalização encerrada. Áudios, scripts, resultados e commits anteriores foram preservados como referência técnica. A prévia antiga com voz feminina não é uma base aprovada para a música final.
 
-**V2: somente uma prévia de 30 segundos**, com voz masculina adulta em registro médio-grave e MPB acústica sóbria e tensa. A faixa completa depende da aprovação auditiva do usuário. Configuração em [config/artistic-preview-v2.json](config/artistic-preview-v2.json), análise em [docs/reference-analysis-v2.md](docs/reference-analysis-v2.md). Não há liberação automática por Whisper ou por medições de áudio.
+**V2 aprovada pelo usuário; faixa integral em produção.** Direção masculina adulta médio-grave, MPB acústica sóbria e tensa, 65 BPM e ré menor. A prévia aprovada está preservada. A produção integral usa a mesma direção, seed e parâmetros funcionais, com a letra completa e alvo de 210 s (3min30s). Configuração em [config/full-v2.json](config/full-v2.json). Não há novos testes de modelos nem ASR como aprovação artística.
 
 ## Prévia V2 pronta para avaliação
 
-[Ouvir ou baixar MP3 da V2 — 30 segundos](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/music/samples/mpb-masculina-v2-preview-30s.mp3). MP3 estéreo, 48 kHz, 320 kbps. [FLAC original preservado](samples/mpb-masculina-v2-preview-30s.flac). A execução terminou após essa única prévia. Nenhuma faixa completa V2 foi iniciada. O resultado existente foi recuperado sem nova geração ou mudança de configuração; a próxima etapa depende da aprovação auditiva explícita do usuário.
+[Ouvir ou baixar MP3 da V2 — 30 segundos](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/music/samples/mpb-masculina-v2-preview-30s.mp3). MP3 estéreo, 48 kHz, 320 kbps. [FLAC original preservado](samples/mpb-masculina-v2-preview-30s.flac). A execução terminou após essa única prévia. Nenhuma faixa completa V2 foi iniciada. O resultado existente foi recuperado sem nova geração ou mudança de configuração. O usuário aprovou essa direção e autorizou a faixa completa.
 
 As referências enviadas ficam somente em `/workspace/attachments/` e `/workspace/music-reference/v2/`. Não são enviadas ao GitHub nem passadas ao gerador como cover, amostra, clonagem ou continuação de áudio. Servem para extrair características abstratas. `musica.zip` excedeu o limite de transferência de 32 MiB; a análise usa o MP3 combinado e os cinco stems presentes em `vozes.zip`.
 
@@ -38,7 +38,7 @@ Pesos estão em `/workspace/Musica_Ditadura/tools/ACE-Step-1.5/checkpoints/`. O 
 
 ## Execução no ambiente preparado
 
-Python: `/workspace/music-runtime/venv/bin/python`; CPU, 32 GiB, sem GPU. Reutilizar pesos existentes. O único gerador da nova direção é `scripts/generate_artistic_preview_v2.py`: solicita exatamente 30 segundos, exporta uma cópia MP3 e termina. Nenhuma faixa completa é iniciada por esse script. Antes de rodar, conferir se já existe processo ou resultado V2; não duplicar execuções. Os runners V1 estão bloqueados para execução direta.
+Python: `/workspace/music-runtime/venv/bin/python`; CPU, 32 GiB, sem GPU. Reutilizar pesos existentes. A prévia foi concluída e aprovada. A execução atual é `scripts/generate_full_v2.py`, log `/workspace/music-runtime/full-v2-production.log` e resultado `/workspace/music-runtime/artistic-v2-full-result.json`. O script gera uma única faixa integral e exporta MP3/WAV/FLAC, letra completa e pacote ZIP. Conferir processos/resultados antes de agir; recuperar arquivos existentes em vez de duplicar a geração. Os runners V1 permanecem bloqueados.
 
 Para restaurar uma instalação ausente, `bash scripts/install.sh` prepara as dependências CPU e verifica a presença dos pesos antes de baixar algo. O script não deve ser executado para reiniciar a produção atual. Os scripts usam os caminhos deste ambiente em `/workspace`. As 55 verificações existentes de claude-music passaram durante a instalação.
 
@@ -46,4 +46,4 @@ O Space público do Hugging Face foi tentado como alternativa gratuita, mas reto
 
 ## Critério de encerramento
 
-A comparação técnica anterior está preservada em `docs/relatorio.md`, mas não equivale a aprovação artística. A V1 foi rejeitada pelo usuário. A V2 será entregue em MP3 para sua avaliação auditiva. Gerar a faixa completa depende de aprovação explícita dessa nova direção. Não executar Whisper como critério artístico nem reabrir benchmarks de precisão. Não houve escuta humana feita pelo agente.
+A direção V2 foi aprovada pelo usuário. Concluir a faixa integral e entregar áudio com a letra completa. A V1 permanece descartada. Não executar Whisper como critério artístico nem reabrir benchmarks de precisão. Não houve escuta humana feita pelo agente. A entrega final ficará em `final/` com MP3, WAV, FLAC original, letra TXT, parâmetros, medições e pacote MP3+letra.

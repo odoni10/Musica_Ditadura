@@ -2,10 +2,11 @@
   "current_version": "v2",
   "v1_status": "discarded_artistic_direction_preserved_as_technical_reference",
   "v1_full_generation": "cancelled_before_audio_completion",
-  "v2_status": "preview_ready_awaiting_user_artistic_approval",
-  "next_allowed_action": "Await explicit user artistic approval of existing V2 preview",
-  "full_generation_authorized": false,
-  "approval_required": true,
+  "v2_status": "artistic_direction_approved_full_generation_authorized",
+  "next_allowed_action": "Generate complete V2 and deliver audio with complete original lyrics",
+  "full_generation_authorized": true,
+  "approval_required": false,
   "references_private_local_only": true,
-  "unavailable_attachment": "musica.zip exceeds tool transfer limit of 32 MiB"
+  "unavailable_attachment": "musica.zip exceeds tool transfer limit of 32 MiB",
+  "approval_evidence": "Usuário: pode continuar e no fim manda a letra completa junta"
 }
