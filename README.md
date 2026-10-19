@@ -2,6 +2,10 @@
 
 Projeto de uma canção original em português brasileiro, com direção de MPB de protesto, voz feminina sintética e acompanhamento acústico. Letra e estrutura estão em [lyrics/letra.txt](lyrics/letra.txt). A comparação final foi concluída: FP32 nativo com planejamento 0.6B foi selecionado. A faixa integral de 180 s está em geração; veja [o relatório](docs/relatorio.md). Os arquivos finais serão colocados em `final/` quando concluídos.
 
+## Prévia disponível
+
+[Baixar/ouvir a prévia FP32 de 30 s em MP3](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/music/samples/fp32-preview-30s.mp3). Cópia em `music/samples/fp32-preview-30s.mp3`, MP3 estéreo, 48 kHz, 320 kbps. Convertida da amostra já concluída; original FLAC preservado e SHA-256 conferido antes/depois. Nenhuma nova amostra foi gerada. A geração integral continua separadamente.
+
 ## Ferramentas e modelos
 
 **claude-music** é o projeto aberto de scripts e orientações que organiza composição, geração e exportação. Aqui usamos seu motor Python pelo Codex, sem instalar Claude Code. Não é um modelo musical nem um serviço contratado. Fonte: https://github.com/AgriciDaniel/claude-music, MIT, commit `5aa0173a6b329e059568bef4253e2a62efe8b412`.

@@ -1,0 +1,77 @@
+{
+  "original": "/workspace/music-output/teste_native/brazilian-mpb-protest-ballad-expressive-female_20261019-1728_01_s190102027.flac",
+  "original_sha256_before": "e647d6c9c27e043cb0a9c910ee7ac8e029ab9c8f1b892588cb4fded07eab0db1",
+  "original_sha256_after": "e647d6c9c27e043cb0a9c910ee7ac8e029ab9c8f1b892588cb4fded07eab0db1",
+  "original_unchanged": true,
+  "mp3": "/workspace/Musica_Ditadura/music/samples/fp32-preview-30s.mp3",
+  "mp3_sha256": "67b813ee4f052505250fefc045f06c417c26991966472a210fcf3edc88840f8e",
+  "bytes": 1202053,
+  "probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 324870,
+        "start_time": "0.023021",
+        "duration_ts": 423698688,
+        "duration": "30.024000",
+        "bit_rate": "320000",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "encoder": "Lavc61.19"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/workspace/Musica_Ditadura/music/samples/fp32-preview-30s.mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.023021",
+      "duration": "30.024000",
+      "size": "1202053",
+      "bit_rate": "320291",
+      "probe_score": 51,
+      "tags": {
+        "title": "O Peso da Minha Mão — Prévia FP32 30s",
+        "encoder": "Lavf61.7.103"
+      }
+    }
+  },
+  "new_sample_generated": false
+}
