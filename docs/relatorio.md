@@ -1,3 +1,5 @@
+> HISTÓRICO V1 — direção artística rejeitada pelo usuário. Geração integral cancelada; resultados preservados como referência técnica. Não é uma versão final aprovada.
+
 # Comparação final e produção
 
 A última comparação foi encerrada. A faixa integral está sendo gerada com FP32 nativo e planejamento 0.6B; nenhum novo benchmark ou ASR foi iniciado.

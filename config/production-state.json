@@ -1,0 +1,11 @@
+{
+  "current_version": "v2",
+  "v1_status": "discarded_artistic_direction_preserved_as_technical_reference",
+  "v1_full_generation": "cancelled_before_audio_completion",
+  "v2_status": "reference_analysis_complete_preview_pending",
+  "next_allowed_action": "ONE 30-second preview only",
+  "full_generation_authorized": false,
+  "approval_required": true,
+  "references_private_local_only": true,
+  "unavailable_attachment": "musica.zip exceeds tool transfer limit of 32 MiB"
+}

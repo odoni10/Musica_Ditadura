@@ -62,6 +62,7 @@ def generate(sample):
         raise RuntimeError('Generation did not complete successfully')
 
 if __name__=='__main__':
+    raise SystemExit('V1 descartada e cancelada por decisão artística. Não reiniciar; V2 requer aprovação auditiva antes da faixa completa.')
     generate(True)
     gate=runtime/'native-quality-gate.json'
     if gate.exists():

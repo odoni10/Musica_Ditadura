@@ -1,10 +1,14 @@
 # O Peso da Minha Mão
 
-Projeto de uma canção original em português brasileiro, com direção de MPB de protesto, voz feminina sintética e acompanhamento acústico. Letra e estrutura estão em [lyrics/letra.txt](lyrics/letra.txt). A comparação final foi concluída: FP32 nativo com planejamento 0.6B foi selecionado. A faixa integral de 180 s está em geração; veja [o relatório](docs/relatorio.md). Os arquivos finais serão colocados em `final/` quando concluídos.
+Canção original em português brasileiro. A letra em [lyrics/letra.txt](lyrics/letra.txt) está preservada.
 
-## Prévia disponível
+**Estado atual: V1 descartada por direção artística.** A geração integral anterior foi cancelada e a automação de finalização encerrada. Áudios, scripts, resultados e commits anteriores foram preservados como referência técnica. A prévia antiga com voz feminina não é uma base aprovada para a música final.
 
-[Baixar/ouvir a prévia FP32 de 30 s em MP3](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/music/samples/fp32-preview-30s.mp3). Cópia em `music/samples/fp32-preview-30s.mp3`, MP3 estéreo, 48 kHz, 320 kbps. Convertida da amostra já concluída; original FLAC preservado e SHA-256 conferido antes/depois. Nenhuma nova amostra foi gerada. A geração integral continua separadamente.
+**V2: somente uma prévia de 30 segundos**, com voz masculina adulta em registro médio-grave e MPB acústica sóbria e tensa. A faixa completa depende da aprovação auditiva do usuário. Configuração em [config/artistic-preview-v2.json](config/artistic-preview-v2.json), análise em [docs/reference-analysis-v2.md](docs/reference-analysis-v2.md). Não há liberação automática por Whisper ou por medições de áudio.
+
+As referências enviadas ficam somente em `/workspace/attachments/` e `/workspace/music-reference/v2/`. Não são enviadas ao GitHub nem passadas ao gerador como cover, amostra, clonagem ou continuação de áudio. Servem para extrair características abstratas. `musica.zip` excedeu o limite de transferência de 32 MiB; a análise usa o MP3 combinado e os cinco stems presentes em `vozes.zip`.
+
+Prévia V1 descartada, preservada apenas para histórico: [MP3 antigo](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/music/samples/fp32-preview-30s.mp3).
 
 ## Ferramentas e modelos
 
@@ -30,7 +34,7 @@ Pesos estão em `/workspace/Musica_Ditadura/tools/ACE-Step-1.5/checkpoints/`. O 
 
 ## Execução no ambiente preparado
 
-Python: `/workspace/music-runtime/venv/bin/python`; CPU, 32 GiB, sem GPU. Modelos existentes devem ser reutilizados. Não execute novamente a geração para apenas ouvir ou baixar os arquivos finais. A execução corrente é `/workspace/music-runtime/produce_native_cpu.py`, com log `native-production.log`. O processo mantém os modelos carregados entre a última amostra e a faixa integral. Um arquivo interno de decisão libera a geração integral após a comparação técnica; ASR não participa dessa condição.
+Python: `/workspace/music-runtime/venv/bin/python`; CPU, 32 GiB, sem GPU. Reutilizar pesos existentes. O único gerador da nova direção é `scripts/generate_artistic_preview_v2.py`: solicita exatamente 30 segundos, exporta uma cópia MP3 e termina. Nenhuma faixa completa é iniciada por esse script. Antes de rodar, conferir se já existe processo ou resultado V2; não duplicar execuções. Os runners V1 estão bloqueados para execução direta.
 
 Para restaurar uma instalação ausente, `bash scripts/install.sh` prepara as dependências CPU e verifica a presença dos pesos antes de baixar algo. O script não deve ser executado para reiniciar a produção atual. Os scripts usam os caminhos deste ambiente em `/workspace`. As 55 verificações existentes de claude-music passaram durante a instalação.
 
@@ -38,4 +42,4 @@ O Space público do Hugging Face foi tentado como alternativa gratuita, mas reto
 
 ## Critério de encerramento
 
-A comparação final inclui INT8 sem planejamento, INT8 com planejamento e FP32 nativo com planejador 0.6B. Têm durações, seeds e parâmetros diferentes, portanto não constituem um experimento controlado de precisão. Medições de onda, duração, estabilidade e tempo são objetivas; qualidade musical e dicção exigem escuta. Não houve escuta humana realizada pelo agente. Whisper é somente um indicador auxiliar e não bloqueia a geração integral. Não haverá novas rodadas de benchmarks após o teste FP32, salvo erro técnico grave.
+A comparação técnica anterior está preservada em `docs/relatorio.md`, mas não equivale a aprovação artística. A V1 foi rejeitada pelo usuário. A V2 será entregue em MP3 para sua avaliação auditiva. Gerar a faixa completa depende de aprovação explícita dessa nova direção. Não executar Whisper como critério artístico nem reabrir benchmarks de precisão. Não houve escuta humana feita pelo agente.

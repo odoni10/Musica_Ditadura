@@ -45,3 +45,10 @@ temp/
 .codex/
 .netrc
 .git-credentials
+
+# Referências fornecidas pelo usuário: somente armazenamento local
+/music-reference/
+/references/audio/
+/attachments/
+*.zip
+*.m4a

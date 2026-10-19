@@ -1,0 +1,23 @@
+{
+  "version": "v2-artistic-preview",
+  "title": "O Peso da Minha Mão",
+  "caption": "1970s Brazilian acoustic MPB protest song, sombre and tense, sparse nylon-string guitar with rounded organic bass and very restrained hand percussion, adult Brazilian male baritone solo vocal in low-middle register, clear syllabic Brazilian Portuguese, serious contained dramatic delivery, dry warm dark recording, voice upfront with space around it, singing from the first bar, subtle gradual build. Restrained male baritone, plain melodic phrasing.",
+  "lyrics": "[Chorus]\nNão ponho meu nome no escuro\nNem dou minha voz de penhor\nA urna não pede um inimigo\nÉ gente vivendo depois\nAntes que o grito me escolha\nEu quero escolher a razão\nO voto parece tão leve\nMas pesa na palma da mão\n\n",
+  "duration": 30,
+  "bpm": 65,
+  "key": "D minor",
+  "time_sig": "4",
+  "language": "pt",
+  "quality": "high",
+  "lm_model": "acestep-5Hz-lm-0.6B",
+  "batch": 1,
+  "inference_steps": 8,
+  "shift": 3.0,
+  "seed": 190102126,
+  "precision": "FP32 CPU native",
+  "source_audio_conditioning": false,
+  "voice_cloning": false,
+  "asr_required": false,
+  "full_generation_authorized": false,
+  "approval_required_from": "user after listening to this preview"
+}

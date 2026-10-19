@@ -83,4 +83,5 @@ def complete() -> None:
 
 
 if __name__ == '__main__':
+    raise SystemExit('V1 descartada e cancelada por decisão artística. Não reiniciar; V2 requer aprovação auditiva antes da faixa completa.')
     complete()
