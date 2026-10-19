@@ -1,0 +1,378 @@
+{
+  "root": "/workspace/music-runtime",
+  "note": "Inventário durante produção; nenhum arquivo foi apagado. Logs e resultados em execução podem crescer. Conteúdo de credenciais não foi lido nem copiado.",
+  "entries": [
+    {
+      "name": "__pycache__",
+      "type": "directory",
+      "files": 1,
+      "bytes": 6084
+    },
+    {
+      "name": "amp-production.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 89511
+    },
+    {
+      "name": "amp-production.stdout.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 53
+    },
+    {
+      "name": "asr-control-result.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 380
+    },
+    {
+      "name": "asr-control.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 111
+    },
+    {
+      "name": "asr-control.wav",
+      "type": "file",
+      "files": 1,
+      "bytes": 133198
+    },
+    {
+      "name": "cache",
+      "type": "directory",
+      "files": 24111,
+      "bytes": 1288432192
+    },
+    {
+      "name": "cpu-inference-pinned.txt",
+      "type": "file",
+      "files": 1,
+      "bytes": 912
+    },
+    {
+      "name": "download-http.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 980
+    },
+    {
+      "name": "download-parts",
+      "type": "directory",
+      "files": 0,
+      "bytes": 0
+    },
+    {
+      "name": "download-ranges-final.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 2723
+    },
+    {
+      "name": "download-ranges-resumed.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 2916
+    },
+    {
+      "name": "download-ranges.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 1393
+    },
+    {
+      "name": "download.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 1889
+    },
+    {
+      "name": "download_ranges.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 4149
+    },
+    {
+      "name": "generate.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 1917
+    },
+    {
+      "name": "high-production.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 65900
+    },
+    {
+      "name": "high-production.stdout.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 1508
+    },
+    {
+      "name": "high-quality-gate.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 125
+    },
+    {
+      "name": "high-sample-asr.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 368
+    },
+    {
+      "name": "high-sample-result-technical.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 2772
+    },
+    {
+      "name": "high-sample-result.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1381
+    },
+    {
+      "name": "high-sample-small-asr.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 388
+    },
+    {
+      "name": "high-sample-small-validation.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 72
+    },
+    {
+      "name": "high-sample-validation.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 312
+    },
+    {
+      "name": "huggingface",
+      "type": "directory",
+      "files": 66,
+      "bytes": 1266346773
+    },
+    {
+      "name": "inference-requirements.txt",
+      "type": "file",
+      "files": 1,
+      "bytes": 244
+    },
+    {
+      "name": "install.sh",
+      "type": "file",
+      "files": 1,
+      "bytes": 4212
+    },
+    {
+      "name": "installed.txt",
+      "type": "file",
+      "files": 1,
+      "bytes": 977
+    },
+    {
+      "name": "int8-production.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 46031
+    },
+    {
+      "name": "int8-production.stdout.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 1454
+    },
+    {
+      "name": "int8-quality-gate.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 138
+    },
+    {
+      "name": "int8-sample-asr.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 347
+    },
+    {
+      "name": "int8-sample-result-technical.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 2386
+    },
+    {
+      "name": "int8-sample-result.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1389
+    },
+    {
+      "name": "lm-small-download.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 1276
+    },
+    {
+      "name": "lm-small-manifest.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 608
+    },
+    {
+      "name": "model-manifest.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1542
+    },
+    {
+      "name": "native-production.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 12778
+    },
+    {
+      "name": "native-production.stdout.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 53
+    },
+    {
+      "name": "official-space-app.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 12894
+    },
+    {
+      "name": "produce_amp.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 3884
+    },
+    {
+      "name": "produce_high_cpu.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 4329
+    },
+    {
+      "name": "produce_int8.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 3847
+    },
+    {
+      "name": "produce_native_cpu.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 3927
+    },
+    {
+      "name": "remote-provenance.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 235
+    },
+    {
+      "name": "remote-sample-request-thinking.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1512
+    },
+    {
+      "name": "remote-sample-request.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1516
+    },
+    {
+      "name": "remote-sample-thinking.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 1533
+    },
+    {
+      "name": "remote-sample.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 1617
+    },
+    {
+      "name": "remote_generate.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 2491
+    },
+    {
+      "name": "sample-validation.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 291
+    },
+    {
+      "name": "space-api.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 594124
+    },
+    {
+      "name": "space-config.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 386161
+    },
+    {
+      "name": "test-generation.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 105082
+    },
+    {
+      "name": "test-result.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 214
+    },
+    {
+      "name": "transcribe.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 1921
+    },
+    {
+      "name": "validate_audio.py",
+      "type": "file",
+      "files": 1,
+      "bytes": 1727
+    },
+    {
+      "name": "venv",
+      "type": "directory",
+      "files": 26931,
+      "bytes": 1347237224
+    },
+    {
+      "name": "whisper-setup.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 58
+    },
+    {
+      "name": "whisper-small-download.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 587
+    },
+    {
+      "name": "whisper-small-manifest.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 196
+    }
+  ]
+}

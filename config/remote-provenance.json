@@ -1,0 +1,11 @@
+{
+  "space": "ACE-Step/Ace-Step-v1.5",
+  "commit": "7403460e9b34972f760317b56048f6cb9d4a3a11",
+  "sdk": "gradio",
+  "license": "mit",
+  "stage": "RUNNING",
+  "hardware": {
+    "current": "zero-a10g",
+    "requested": "zero-a10g"
+  }
+}

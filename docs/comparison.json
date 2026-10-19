@@ -1,0 +1,93 @@
+{
+  "samples": [
+    {
+      "configuration": "INT8 sem planejamento",
+      "measurements": {
+        "duration_seconds": 15.0,
+        "sample_rate": 48000,
+        "channels": 2,
+        "peak_dbfs": -0.9998544876801003,
+        "rms_dbfs": -20.664098458640577,
+        "blocks_below_minus80_dbfs": 0
+      },
+      "generation_seconds": 511.8,
+      "seconds_compute_per_second_audio": 34.12,
+      "completed_without_generation_error": true,
+      "precision": "CPU dynamic INT8 on DiT decoder; FP32 text encoder and VAE",
+      "params": {
+        "caption": "Brazilian MPB protest ballad, tense and soulful, nylon-string acoustic guitar, organic bass, piano, restrained pandeiro and shaker, expressive natural female singing in Brazilian Portuguese, intimate opening, rising dramatic choruses, warm strings and small choir in final chorus, full resolved acoustic ending, warm studio sound",
+        "lyrics": "[Chorus]\nNão ponho meu nome no escuro\nNem dou minha voz de penhor\nA urna não pede um inimigo\nÉ gente vivendo depois",
+        "bpm": 82,
+        "key": "D minor",
+        "duration": 15.0,
+        "instrumental": false,
+        "language": "pt",
+        "inference_steps": 8,
+        "guidance_scale": 0.0,
+        "shift": 1.0,
+        "thinking": false
+      }
+    },
+    {
+      "configuration": "INT8 com planejamento 1.7B",
+      "measurements": {
+        "duration_seconds": 30.0,
+        "sample_rate": 48000,
+        "channels": 2,
+        "peak_dbfs": -0.9998544876801003,
+        "rms_dbfs": -18.933108548075317,
+        "blocks_below_minus80_dbfs": 0
+      },
+      "generation_seconds": 1476.6,
+      "seconds_compute_per_second_audio": 49.22,
+      "completed_without_generation_error": true,
+      "precision": "CPU dynamic INT8 on DiT decoder and 1.7B LM; FP32 text encoder and VAE",
+      "params": {
+        "caption": "Brazilian MPB protest ballad, expressive female lead singing in Brazilian Portuguese from the start, nylon-string acoustic guitar, piano, organic bass, pandeiro, warm natural studio sound",
+        "lyrics": "[Chorus]\nNão ponho meu nome no escuro\nNem dou minha voz de penhor\nA urna não pede um inimigo\nÉ gente vivendo depois\nAntes que o grito me escolha\nEu quero escolher a razão\nO voto parece tão leve\nMas pe...",
+        "bpm": 82,
+        "key": "D minor",
+        "duration": 30.0,
+        "instrumental": false,
+        "language": "pt",
+        "inference_steps": 8,
+        "guidance_scale": 0.0,
+        "shift": 1.0,
+        "thinking": true
+      }
+    },
+    {
+      "configuration": "FP32 nativo com planejamento 0.6B",
+      "measurements": {
+        "duration_seconds": 30.0,
+        "sample_rate": 48000,
+        "channels": 2,
+        "peak_dbfs": -0.9998544876801003,
+        "rms_dbfs": -16.692105411748692,
+        "blocks_below_minus80_dbfs": 0
+      },
+      "generation_seconds": 1368.8,
+      "seconds_compute_per_second_audio": 45.626666666666665,
+      "completed_without_generation_error": true,
+      "precision": "Native FP32 CPU DiT, 0.6B planning LM, text encoder and VAE",
+      "params": {
+        "caption": "Brazilian MPB protest ballad, expressive female lead singing in Brazilian Portuguese from the start, nylon-string acoustic guitar, piano, organic bass, pandeiro, warm natural studio sound",
+        "lyrics": "[Chorus]\nNão ponho meu nome no escuro\nNem dou minha voz de penhor\nA urna não pede um inimigo\nÉ gente vivendo depois\nAntes que o grito me escolha\nEu quero escolher a razão\nO voto parece tão leve\nMas pe...",
+        "bpm": 82,
+        "key": "D minor",
+        "duration": 30.0,
+        "instrumental": false,
+        "language": "pt",
+        "inference_steps": 8,
+        "guidance_scale": 0.0,
+        "shift": 3.0,
+        "thinking": true
+      }
+    }
+  ],
+  "winner": "FP32 nativo com planejamento 0.6B",
+  "reason": "Configuração nativa sem quantização, planejamento ativo e amostra tecnicamente válida; reutiliza os modelos quentes para concluir a faixa. A rapidez isolada favorece INT8 sem planejamento.",
+  "limits": "Durações, seeds e shifts diferentes impedem atribuir diferenças somente à precisão. Clareza vocal, aderência cantada e qualidade musical não foram avaliadas por escuta humana. Não são inferidas da forma de onda.",
+  "asr": "Auxiliar; transcrições históricas curtas não vetam geração. Nenhum novo teste ASR foi exigido.",
+  "further_benchmarks": false
+}

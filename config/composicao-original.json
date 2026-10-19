@@ -1,0 +1,26 @@
+{
+  "title": "O Peso da Minha Mão",
+  "caption": "Brazilian MPB protest ballad, tense and soulful, nylon-string acoustic guitar, organic bass, piano, restrained pandeiro and shaker, expressive natural female singing in Brazilian Portuguese, intimate opening, rising dramatic choruses, warm strings and small choir in final chorus, full resolved acoustic ending, warm studio sound",
+  "lyrics": "[Intro]\n\n[Verse 1]\nDomingo, o feijão perde o cheiro\nNa mesa, ninguém pede o pão\nMeu pai põe um santo de terno\nNo brilho azul do celular\nMinha irmã tenta abrir a janela\nMas sobra bandeira no ar\nE o nome que unia essa casa\nJá custa uma porta fechar\n\n[Pre-Chorus]\nChegou mais um vídeo sem fonte\nMeu dedo quer logo passar\nQuem vende certeza tão fácil\nTem medo de alguém perguntar\n\n[Chorus]\nNão ponho meu nome no escuro\nNem dou minha voz de penhor\nA urna não pede um inimigo\nÉ gente vivendo depois\nAntes que o grito me escolha\nEu quero escolher a razão\nO voto parece tão leve\nMas pesa na palma da mão\n\n[Verse 2]\nNa praça, prometeram uma ponte\nNo bairro, a enxurrada voltou\nA foto ficou no meu peito\nO plano, ninguém procurou\nMeu amigo vestiu uma cor\nChamou meu silêncio de traição\nEu vi nosso abraço sumindo\nDebaixo de tanta razão\n\n[Pre-Chorus]\nTrocaram pergunta por hino\nFizeram da dúvida um réu\nEu quase entreguei meu destino\nA quem me apontava outro céu\n\n[Chorus]\nNão ponho meu nome no escuro\nNem dou minha voz de penhor\nA urna não pede um inimigo\nÉ gente vivendo depois\nAntes que o grito me escolha\nEu quero escolher a razão\nO voto parece tão leve\nMas pesa na palma da mão\n\n[Bridge]\nDesligo a tela um instante\nEscuto quem mora aqui\nProcuro o que estava escrito\nConfiro o que vi repetir\nPromessa tem prazo e caminho\nMandato não é um altar\nQuem ganha não leva meu juízo\nEu fico pra acompanhar\nSe a obra não sai do retrato\nMeu nome vai lá perguntar\nNão quero vencer meu vizinho\nEu quero poder conversar\n\n[Chorus]\nNão ponho meu nome no escuro\nNem dou minha voz de penhor\nA urna não pede um inimigo\nÉ gente vivendo depois\nAgora que o grito se afasta\nEscuto outra voz no portão\nO voto parece tão leve\nMas pesa na palma da mão\n\n[Outro]\nMeu pai me oferece o pão\nEu deixo a pergunta na mesa\nE abro devagar minha mão\n",
+  "instrumental": false,
+  "bpm": 82,
+  "key": "D minor",
+  "time_sig": "4",
+  "duration": 210.0,
+  "language": "pt",
+  "task_type": "generate",
+  "quality": "standard",
+  "model_variant": "acestep-v15-turbo",
+  "batch": 1,
+  "seed": 190102026,
+  "thinking": false,
+  "rationale": {
+    "caption": "Direção MPB com descritores concretos e sem nomes de artistas, seguindo prompt-guide.md.",
+    "bpm_key": "82 BPM e ré menor dão espaço à interpretação tensa e ao crescimento do refrão.",
+    "structure": "Versos narrativos, pré-refrões, refrões e ponte com resposta concreta, seguindo song-structures.md; final do refrão varia para evitar repetição excessiva.",
+    "quality_choice": "Turbo com lote 1 e sem LM para CPU; teste curto obrigatório antes da geração integral. Melodia e canto ainda não gerados."
+  },
+  "status": "Native FP32 CPU test running with 0.6B LM after INT8 samples failed lyric intelligibility checks.",
+  "claude_music_commit": "5aa0173a6b329e059568bef4253e2a62efe8b412",
+  "ace_step_commit": "ca1e85fe9430179831e6bc6be790c332190a3866"
+}

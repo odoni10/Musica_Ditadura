@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "task_type": "text2music",
+  "model": "acestep-v15-turbo",
+  "lm_model": null,
+  "quality": "standard",
+  "outputs": [
+    {
+      "path": "/workspace/music-output/teste_int8/brazilian-mpb-protest-ballad-tense-and_20261019-1555_01_s190102026.flac",
+      "seed": 190102026,
+      "duration_sec": 15.0,
+      "size_mb": 0.88,
+      "index": 1
+    }
+  ],
+  "params": {
+    "caption": "Brazilian MPB protest ballad, tense and soulful, nylon-string acoustic guitar, organic bass, piano, restrained pandeiro and shaker, expressive natural female singing in Brazilian Portuguese, intimate opening, rising dramatic choruses, warm strings and small choir in final chorus, full resolved acoustic ending, warm studio sound",
+    "lyrics": "[Chorus]\nNão ponho meu nome no escuro\nNem dou minha voz de penhor\nA urna não pede um inimigo\nÉ gente vivendo depois",
+    "bpm": 82,
+    "key": "D minor",
+    "duration": 15.0,
+    "instrumental": false,
+    "language": "pt",
+    "inference_steps": 8,
+    "guidance_scale": 0.0,
+    "shift": 1.0,
+    "thinking": false
+  },
+  "timing": {
+    "generation_sec": 511.8
+  },
+  "count": 1,
+  "playback_hint": "ffplay -nodisp -autoexit \"/workspace/music-output/teste_int8/brazilian-mpb-protest-ballad-tense-and_20261019-1555_01_s190102026.flac\"",
+  "runtime_precision": "CPU dynamic INT8 on DiT decoder; FP32 text encoder and VAE"
+}

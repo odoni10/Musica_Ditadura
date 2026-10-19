@@ -1,0 +1,11 @@
+{
+  "model": "openai/whisper-base",
+  "audio": "/workspace/music-output/teste_int8/brazilian-mpb-protest-ballad-tense-and_20261019-1555_01_s190102026.flac",
+  "segments": [
+    {
+      "start_seconds": 0.0,
+      "text": " A"
+    }
+  ],
+  "limitations": "ASR is an imperfect intelligibility check for singing; no human listening was performed."
+}

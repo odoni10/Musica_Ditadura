@@ -1,0 +1,11 @@
+{
+  "model": "openai/whisper-base",
+  "audio": "/workspace/music-output/teste_high/brazilian-mpb-protest-ballad-expressive-female_20261019-1644_01_s190102026.flac",
+  "segments": [
+    {
+      "start_seconds": 0.0,
+      "text": " O que é isso?"
+    }
+  ],
+  "limitations": "ASR is an imperfect intelligibility check for singing; no human listening was performed."
+}

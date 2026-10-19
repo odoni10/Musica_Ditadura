@@ -1,0 +1,215 @@
+Crie e produza uma música brasileira completa, com letra original, voz cantada, instrumental e finalização. Execute o trabalho até entregar o MP3 para download.
+
+Não encerre apenas com uma letra, um planejamento ou instruções para eu executar depois.
+
+## 1. Tema e proposta artística
+
+A temática é a polarização política no Brasil atual e a falta de senso crítico na hora da votação.
+
+Explore poeticamente:
+- Políticos tratados como ídolos.
+- Política transformada em torcida.
+- Notícias compartilhadas sem verificação.
+- Famílias e amizades divididas.
+- Voto motivado pelo ódio ao adversário.
+- Promessas aceitas sem análise.
+- A importância de pesquisar propostas, cobrar representantes e pensar com autonomia.
+
+Não faça propaganda para partidos ou candidatos. Critique comportamentos concretos, sem afirmar artificialmente que todos os grupos são iguais. Evite acusações pessoais e fatos recentes sem comprovação.
+
+Quero uma música emocionante, provocativa e musicalmente forte, sem parecer redação escolar, palestra ou jingle eleitoral.
+
+## 2. Referência musical
+
+Use como referência ampla a tradição da MPB de protesto durante a ditadura militar brasileira: metáforas, tensão emocional, interpretação expressiva e força coletiva.
+
+“Cálice” é uma referência de contexto histórico e intensidade emocional. Não reproduza sua melodia, letra, refrão, gravação ou arranjo reconhecível. Não escreva uma letra para encaixar na melodia existente. Não clone nem imite a voz de Chico Buarque.
+
+A composição deve ter identidade própria, com letra, melodia e arranjo originais.
+
+Direção sonora:
+- MPB de protesto.
+- Voz cantada natural em português brasileiro.
+- Violão acústico, baixo orgânico, piano e percussão brasileira.
+- Cordas e coro opcionais no crescimento final.
+- Início intimista, desenvolvimento tenso e refrão marcante.
+- Duração aproximada de 3 a 4 minutos.
+- Encerramento musical completo.
+
+## 3. Utilize efetivamente a skill claude-music
+
+Repositório obrigatório de apoio:
+https://github.com/AgriciDaniel/claude-music
+
+Você deve estudar, preparar e utilizar esse projeto no processo de produção, se houver compatibilidade técnica.
+
+Não basta clonar o repositório, instalar dependências ou mencionar a skill no relatório. O objetivo é aplicar suas instruções e ferramentas à composição, configuração, geração, análise ou exportação da música.
+
+### Inspeção e preparação
+
+1. Identifique sistema operacional, Python, Git, FFmpeg, memória RAM, GPU, VRAM e espaço disponível.
+2. Clone o repositório em uma pasta de ferramentas do projeto, sem sobrescrever trabalhos existentes:
+
+git clone https://github.com/AgriciDaniel/claude-music.git
+
+3. Leia o README.md, ARCHITECTURE.md e os arquivos SKILL.md relevantes dentro de skills/.
+4. Inspecione o instalador correspondente ao sistema antes de executá-lo.
+5. Confira as instruções atuais do repositório. Não invente comandos ou parâmetros.
+
+O README documenta estes caminhos de instalação:
+
+Linux/macOS:
+bash install.sh
+
+Windows/PowerShell:
+powershell -ExecutionPolicy Bypass -File .\install.ps1
+
+Use o caminho apropriado somente depois de verificar seus efeitos e requisitos. Prefira ambientes isolados e preserve configurações existentes.
+
+### Compatibilidade com Codex
+
+O projeto foi criado para Claude Code. Não presuma que instalar seus atalhos tornará comandos como /music disponíveis no Codex.
+
+Verifique como integrar suas instruções e scripts ao ambiente atual:
+- Leia as skills e aplique suas orientações.
+- Utilize os scripts, pontos de entrada Python ou dashboard realmente existentes.
+- Consulte --help e a documentação antes de executar.
+- Se houver suporte a skills locais no Codex, faça uma adaptação mínima, preservando a origem e a licença.
+- Não instale Claude Code nem contrate outro serviço apenas para conseguir usar os atalhos.
+
+Os nomes /music compose, /music generate, /music analyze, /music enhance e /music export representam funções documentadas no projeto. Localize suas implementações reais e use os pontos de entrada compatíveis.
+
+Não finja executar um comando que não existe no ambiente.
+
+### Aplicação ao projeto musical
+
+Use os recursos disponíveis do claude-music para:
+1. Preparar letra, descrição musical e estrutura.
+2. Configurar ACE-Step conforme o hardware.
+3. Gerar áudio com voz e instrumental.
+4. Analisar os resultados.
+5. Corrigir trechos quando tecnicamente possível.
+6. Exportar a versão final.
+
+Registre a versão ou commit utilizado, configurações, seed quando disponível e caminhos dos áudios gerados.
+
+Se precisar adaptar algum código, mantenha as alterações pequenas e documentadas.
+
+## 4. Orçamento e autonomia
+
+Orçamento total: R$ 0.
+
+Não compre créditos, não assine serviços, não ative testes com cobrança automática e não solicite cartão.
+
+Você está autorizado a realizar autonomamente as operações reversíveis necessárias, incluindo preparar ambientes isolados, instalar dependências pertinentes e baixar os modelos necessários, após verificar espaço e compatibilidade.
+
+Evite downloads duplicados: reutilize uma instalação compatível de ACE-Step, caso já exista.
+
+Não interrompa para decisões rotineiras de composição, instrumentos, título ou organização de arquivos. Resolva com critério profissional.
+
+Interrompa somente diante de um bloqueio real que dependa de mim, como autenticação, CAPTCHA ou impossibilidade técnica de todos os caminhos gratuitos. Não peça senhas no chat.
+
+## 5. Composição
+
+Crie um título original e escreva a letra completa.
+
+Use imagens brasileiras concretas, como mesa de família, mensagens no celular, praça, bandeiras, urna, promessas e vozes que deixam de se ouvir.
+
+Trabalhe metáforas, métrica cantável e progressão dramática. Evite frases genéricas e rimas forçadas.
+
+Estrutura sugerida:
+introdução → verso 1 → pré-refrão → refrão → verso 2 → refrão → ponte → refrão final → encerramento.
+
+O refrão deve ser memorável e provocar reflexão sobre a responsabilidade de pensar antes de votar, sem mandar votar em determinada pessoa ou corrente política.
+
+Revise a letra e siga para a geração sem depender de aprovação intermediária.
+
+## 6. Geração local com ACE-Step
+
+Fontes oficiais:
+https://github.com/ace-step/ACE-Step-1.5
+https://ace-step.github.io/ACE-Step-1.5/en/GRADIO_GUIDE
+
+Priorize o fluxo local integrado ao claude-music quando o hardware permitir.
+
+Escolha o preset de qualidade de acordo com os recursos disponíveis. Não selecione a configuração máxima automaticamente.
+
+Faça primeiro um teste curto para confirmar:
+- Funcionamento do modelo.
+- Presença de canto.
+- Português compreensível.
+- Compatibilidade com a direção musical.
+
+Depois gere a versão completa. Se os recursos permitirem, compare duas versões e selecione a melhor.
+
+Se houver falta de memória, ajuste lote, modelo, duração de teste ou opções documentadas de uso de memória. Não encerre o projeto na primeira falha recuperável.
+
+Não substitua canto por voz de leitura para declarar a música concluída.
+
+## 7. Alternativas gratuitas, caso a execução local seja inviável
+
+### Alternativa A: demonstração oficial do ACE-Step
+
+Acesse:
+https://huggingface.co/spaces/ACE-Step/Ace-Step-v1.5
+
+Verifique disponibilidade, fila, cotas, suporte à letra personalizada e download oficial.
+
+Aplique as orientações de composição e configuração obtidas com o claude-music, mesmo que a geração precise ocorrer nessa interface.
+
+Use apenas ferramentas de navegador realmente disponíveis. @chrome é um exemplo de acesso, não um comando obrigatório.
+
+### Alternativa B: Suno
+
+Acesse:
+https://suno.com/create
+
+Antes de gerar, confirme se a conta disponível permite tanto a geração quanto o download gratuito do resultado.
+
+Se permitir, use letra personalizada e baixe o áudio pelo mecanismo oficial. Informe as restrições de uso aplicáveis à modalidade gratuita.
+
+Se exigir pagamento para baixar, descarte esse caminho. Não capture a reprodução para contornar o bloqueio.
+
+Não utilize um serviço sem exportação disponível: ouvir a música dentro da plataforma não substitui a entrega do MP3.
+
+## 8. Verificação e finalização
+
+Ouça a música completa se houver recursos de reprodução e avaliação disponíveis.
+
+Confira:
+- Clareza da letra e pronúncia em português.
+- Presença das seções planejadas.
+- Coerência entre letra, interpretação e instrumental.
+- Equilíbrio entre voz e acompanhamento.
+- Ausência de distorção evidente e silêncios excessivos.
+- Início e final completos.
+- Ausência de reprodução reconhecível da obra de referência.
+
+Se não puder ouvir, declare essa limitação e realize as verificações técnicas possíveis. Não alegue uma avaliação auditiva que não fez.
+
+Use os recursos documentados de análise ou finalização do claude-music quando disponíveis. Evite processamento excessivo.
+
+Preserve o arquivo original de maior qualidade.
+
+Se necessário, converta para MP3 com FFmpeg, adaptando o nome e a extensão da entrada:
+
+ffmpeg -i "musica_original.wav" -codec:a libmp3lame -b:a 320k "musica_completa.mp3"
+
+Não recomprima desnecessariamente um MP3 já fornecido pelo gerador. Converter para 320 kbps não recupera qualidade perdida.
+
+Verifique com ffprobe a duração, o codec e a presença de um fluxo de áudio válido.
+
+## 9. Entrega
+
+Entregue:
+- MP3 da música completa, com link ou anexo para download.
+- Letra final em TXT.
+- Áudio original em WAV ou FLAC, se disponível.
+- Título e duração.
+- Breve descrição das ferramentas efetivamente utilizadas.
+- Indicação objetiva de como o claude-music participou do resultado.
+- Eventuais restrições de uso do serviço ou modelo empregado.
+
+O principal resultado é a música completa em MP3. Não encerre somente com instalação concluída, letra escrita ou link para uma plataforma.
+
+Se nenhum caminho gratuito funcionar, informe os bloqueios concretos, preserve os arquivos produzidos e explique a menor intervenção necessária para continuar. Nunca invente um áudio ou um link de download.
