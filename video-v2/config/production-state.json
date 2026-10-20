@@ -1,5 +1,5 @@
 {
-  "status": "validated_ready_to_publish",
+  "status": "complete_published",
   "version": "videoclipe-v2",
   "duration": 210,
   "unique_artworks": 24,
@@ -9,8 +9,9 @@
   "previous_video_preserved": true,
   "previous_video_sha256": "884b46fb0d31f9444556ba5bb5ed87bf9a39c33c5c74145f94fe0c90fe522cea",
   "log": "/workspace/video-runtime/render-v2.log",
-  "next_action": "Publish and deliver existing V2 MP4; no new render needed.",
+  "next_action": "Deliver existing completed V2 video and project. No new generation required.",
   "validation_report": "docs/validation.json",
   "output": "output/O_Peso_da_Minha_Mao_Videoclipe_V2.mp4",
-  "completed_renderer_pid": 69138
+  "completed_renderer_pid": 69138,
+  "publication_report": "docs/publication.json"
 }

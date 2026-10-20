@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-20T12:14:10.702292+00:00",
+  "video_commit": "4cfa2986e2415bb6f160607c6414d3540567b733",
+  "url": "https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/video-v2/output/O_Peso_da_Minha_Mao_Videoclipe_V2.mp4",
+  "http_status": 200,
+  "content_type": "application/octet-stream",
+  "downloaded_bytes": 48741548,
+  "sha256": "26dc63bc5f365b45d6041b5d99a984a97c6db378744ae76bfd4ddab54e5b2b6b",
+  "matches_local_export": true,
+  "docs/storyboard.jpg": {
+    "url": "https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/video-v2/docs/storyboard.jpg",
+    "status": 200
+  },
+  "README.md": {
+    "url": "https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/video-v2/README.md",
+    "status": 200
+  }
+}
