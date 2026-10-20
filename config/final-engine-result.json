@@ -1,0 +1,35 @@
+{
+  "success": true,
+  "task_type": "text2music",
+  "model": "acestep-v15-turbo",
+  "lm_model": "acestep-5Hz-lm-0.6B",
+  "quality": "high",
+  "outputs": [
+    {
+      "path": "/workspace/music-output/full-v2-male-mpb/1970s-brazilian-acoustic-mpb-protest-song_20261020-0109_01_s190102126.flac",
+      "seed": 190102126,
+      "duration_sec": 210.0,
+      "size_mb": 20.94,
+      "index": 1
+    }
+  ],
+  "params": {
+    "caption": "1970s Brazilian acoustic MPB protest song, sombre and tense, sparse nylon-string guitar with rounded organic bass and very restrained hand percussion, adult Brazilian male baritone solo vocal in low-middle register, clear syllabic Brazilian Portuguese, serious contained dramatic delivery, dry warm dark recording, voice upfront with space around it, singing from the first bar, subtle gradual build. Restrained male baritone, plain melodic phrasing.",
+    "lyrics": "[Intro]\n\n[Verse 1]\nDomingo, o feijão perde o cheiro\nNa mesa, ninguém pede o pão\nMeu pai põe um santo de terno\nNo brilho azul do celular\nMinha irmã tenta abrir a janela\nMas sobra bandeira no ar\nE o nom...",
+    "bpm": 65,
+    "key": "D minor",
+    "duration": 210.0,
+    "instrumental": false,
+    "language": "pt",
+    "inference_steps": 8,
+    "guidance_scale": 0.0,
+    "shift": 3.0,
+    "thinking": true
+  },
+  "timing": {
+    "generation_sec": 6330.9
+  },
+  "count": 1,
+  "playback_hint": "ffplay -nodisp -autoexit \"/workspace/music-output/full-v2-male-mpb/1970s-brazilian-acoustic-mpb-protest-song_20261020-0109_01_s190102126.flac\"",
+  "runtime_precision": "Native FP32 CPU; planning LM 0.6B"
+}

@@ -1,0 +1,167 @@
+{
+  "source": "/workspace/music-output/full-v2-male-mpb/1970s-brazilian-acoustic-mpb-protest-song_20261020-0109_01_s190102126.flac",
+  "source_measurements": {
+    "duration_seconds": 210.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -0.9998544876801003,
+    "rms_dbfs": -16.688037255427744,
+    "blocks_below_minus80_dbfs": 0
+  },
+  "fixed_gain_db": -0.5001455123198997,
+  "filters": "volume=-0.500146dB,afade=t=in:st=0:d=0.015,afade=t=out:st=209.650000:d=0.35",
+  "wav": "/workspace/Musica_Ditadura/final/O_Peso_da_Minha_Mao.wav",
+  "mp3": "/workspace/Musica_Ditadura/final/O_Peso_da_Minha_Mao.mp3",
+  "wav_measurements": {
+    "duration_seconds": 210.0,
+    "sample_rate": 48000,
+    "channels": 2,
+    "peak_dbfs": -1.500000020140368,
+    "rms_dbfs": -17.188261278349525,
+    "blocks_below_minus80_dbfs": 0
+  },
+  "processing": "Fixed gain, 15 ms initial fade, 350 ms final fade; no compression/EQ/time stretching.",
+  "asr_required": false,
+  "auditory_evaluation": false,
+  "files": [
+    {
+      "name": "O_Peso_da_Minha_Mao.wav",
+      "bytes": 60480132,
+      "sha256": "1fdbf4fbfa7bb6c0566783a79c5fc9b1f61d28c8ccf8e394ea6ba626588cdff4",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s24le",
+            "codec_long_name": "PCM signed 24-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s32",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 24,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "duration_ts": 10080000,
+            "duration": "210.000000",
+            "bit_rate": "2304000",
+            "bits_per_raw_sample": "24",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "/workspace/Musica_Ditadura/final/O_Peso_da_Minha_Mao.wav",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "wav",
+          "format_long_name": "WAV / WAVE (Waveform Audio)",
+          "duration": "210.000000",
+          "size": "60480132",
+          "bit_rate": "2304005",
+          "probe_score": 99,
+          "tags": {
+            "title": "O Peso da Minha Mão",
+            "encoder": "Lavf61.7.103"
+          }
+        }
+      }
+    },
+    {
+      "name": "O_Peso_da_Minha_Mao.mp3",
+      "bytes": 8402017,
+      "sha256": "c81f4c7c9a392b50a88dec8bd05db8b5c6579a5e483bee430f0c0ac1f19fbf05",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "mp3",
+            "codec_long_name": "MP3 (MPEG audio layer 3)",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 0,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/14112000",
+            "start_pts": 324870,
+            "start_time": "0.023021",
+            "duration_ts": 2963858688,
+            "duration": "210.024000",
+            "bit_rate": "320000",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "encoder": "Lavc61.19"
+            }
+          }
+        ],
+        "format": {
+          "filename": "/workspace/Musica_Ditadura/final/O_Peso_da_Minha_Mao.mp3",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mp3",
+          "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+          "start_time": "0.023021",
+          "duration": "210.024000",
+          "size": "8402017",
+          "bit_rate": "320040",
+          "probe_score": 51,
+          "tags": {
+            "title": "O Peso da Minha Mão",
+            "encoder": "Lavf61.7.103"
+          }
+        }
+      }
+    }
+  ]
+}

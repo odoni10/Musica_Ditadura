@@ -1,0 +1,55 @@
+{
+  "same_approved_artistic_parameters": true,
+  "complete_lyrics_preserved": true,
+  "lyrics_sha256": "1ba1a3b95d3e6a754e38d04341df534936c7f14586275b450c7c3c04a4c145e6",
+  "raw_flac_copy_matches_source": true,
+  "asr_used": false,
+  "auditory_evaluation_by_agent": false,
+  "files": [
+    {
+      "name": "O_Peso_da_Minha_Mao.flac",
+      "bytes": 21957521,
+      "sha256": "fa92b95b98b853370bd9aab5532b860e794d441c65643ff767483e23593f90eb",
+      "codec": "flac",
+      "waveform": {
+        "duration_seconds": 210.0,
+        "sample_rate": 48000,
+        "channels": 2,
+        "peak_dbfs": -0.9998544876801003,
+        "rms_dbfs": -16.688037255427744,
+        "blocks_below_minus80_dbfs": 0
+      }
+    },
+    {
+      "name": "O_Peso_da_Minha_Mao.wav",
+      "bytes": 60480132,
+      "sha256": "1fdbf4fbfa7bb6c0566783a79c5fc9b1f61d28c8ccf8e394ea6ba626588cdff4",
+      "codec": "pcm_s24le",
+      "waveform": {
+        "duration_seconds": 210.0,
+        "sample_rate": 48000,
+        "channels": 2,
+        "peak_dbfs": -1.500000020140368,
+        "rms_dbfs": -17.188261278349525,
+        "blocks_below_minus80_dbfs": 0
+      }
+    },
+    {
+      "name": "O_Peso_da_Minha_Mao.mp3",
+      "bytes": 8402017,
+      "sha256": "c81f4c7c9a392b50a88dec8bd05db8b5c6579a5e483bee430f0c0ac1f19fbf05",
+      "codec": "mp3",
+      "waveform": {
+        "duration_seconds": 210.0,
+        "sample_rate": 48000,
+        "channels": 2,
+        "peak_dbfs": -1.603482259476311,
+        "rms_dbfs": -17.187781812314554,
+        "blocks_below_minus80_dbfs": 0
+      }
+    }
+  ],
+  "zip_crc_and_contents_valid": true,
+  "silence_intervals_at_least_2s_below_minus60_dbfs": [],
+  "zip_parameters_match_final_json": true
+}

@@ -4,7 +4,17 @@ Canção original em português brasileiro. A letra em [lyrics/letra.txt](lyrics
 
 **Estado atual: V1 descartada por direção artística.** A geração integral anterior foi cancelada e a automação de finalização encerrada. Áudios, scripts, resultados e commits anteriores foram preservados como referência técnica. A prévia antiga com voz feminina não é uma base aprovada para a música final.
 
-**V2 aprovada pelo usuário; faixa integral em produção.** Direção masculina adulta médio-grave, MPB acústica sóbria e tensa, 65 BPM e ré menor. A prévia aprovada está preservada. A produção integral usa a mesma direção, seed e parâmetros funcionais, com a letra completa e alvo de 210 s (3min30s). Configuração em [config/full-v2.json](config/full-v2.json). Não há novos testes de modelos nem ASR como aprovação artística.
+**Música completa V2 concluída: 3min30s.** Direção masculina adulta médio-grave, MPB acústica sóbria e tensa, 65 BPM e ré menor. O usuário aprovou a prévia e autorizou a produção integral. A letra original foi preservada. Veja [o relatório final](docs/relatorio-final-v2.md) e [os parâmetros](final/parametros-v2.json).
+
+## Downloads finais
+
+- [MP3 — 320 kbps, 48 kHz](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao.mp3)
+- [Pacote MP3 + letra completa + parâmetros](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao_MP3_e_Letra.zip)
+- [Letra completa em TXT](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao_LETRA.txt)
+- [WAV — PCM 24 bits, 48 kHz](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao.wav)
+- [FLAC original preservado](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao.flac)
+
+Arquivos em `/workspace/Musica_Ditadura/final/`, todos menores que 100 MiB. Verificação técnica e hashes em `final/validation-report.json` e `final/SHA256SUMS.txt`. A V1 descartada e as prévias continuam preservadas.
 
 ## Prévia V2 pronta para avaliação
 
@@ -38,12 +48,12 @@ Pesos estão em `/workspace/Musica_Ditadura/tools/ACE-Step-1.5/checkpoints/`. O 
 
 ## Execução no ambiente preparado
 
-Python: `/workspace/music-runtime/venv/bin/python`; CPU, 32 GiB, sem GPU. Reutilizar pesos existentes. A prévia foi concluída e aprovada. A execução atual é `scripts/generate_full_v2.py`, log `/workspace/music-runtime/full-v2-production.log` e resultado `/workspace/music-runtime/artistic-v2-full-result.json`. O script gera uma única faixa integral e exporta MP3/WAV/FLAC, letra completa e pacote ZIP. Conferir processos/resultados antes de agir; recuperar arquivos existentes em vez de duplicar a geração. Os runners V1 permanecem bloqueados.
+Python: `/workspace/music-runtime/venv/bin/python`; CPU, 32 GiB, sem GPU. Reutilizar pesos existentes. A prévia foi concluída e aprovada. A execução concluída foi `scripts/generate_full_v2.py`, log `/workspace/music-runtime/full-v2-production.log` e resultado `/workspace/music-runtime/artistic-v2-full-result.json`. O script gera uma única faixa integral e exporta MP3/WAV/FLAC, letra completa e pacote ZIP. Conferir processos/resultados antes de agir; recuperar arquivos existentes em vez de duplicar a geração. Os runners V1 permanecem bloqueados.
 
 Para restaurar uma instalação ausente, `bash scripts/install.sh` prepara as dependências CPU e verifica a presença dos pesos antes de baixar algo. O script não deve ser executado para reiniciar a produção atual. Os scripts usam os caminhos deste ambiente em `/workspace`. As 55 verificações existentes de claude-music passaram durante a instalação.
 
 O Space público do Hugging Face foi tentado como alternativa gratuita, mas retornou erro de tarefa GPU e depois quota anônima esgotada; nenhum áudio remoto foi obtido. A produção continua local. Não há serviço pago nem credencial necessária para executar os modelos públicos já presentes. Se autenticação opcional for utilizada no futuro, forneça `HF_TOKEN` apenas pelo armazenamento seguro do ambiente, nunca em arquivos do projeto.
 
-## Critério de encerramento
+## Estado final
 
-A direção V2 foi aprovada pelo usuário. Concluir a faixa integral e entregar áudio com a letra completa. A V1 permanece descartada. Não executar Whisper como critério artístico nem reabrir benchmarks de precisão. Não houve escuta humana feita pelo agente. A entrega final ficará em `final/` com MP3, WAV, FLAC original, letra TXT, parâmetros, medições e pacote MP3+letra.
+A faixa V2 foi gerada uma única vez, com a direção aprovada, e exportada com toda a letra em TXT e no pacote ZIP. Não há geração obrigatória ativa. Para ouvir ou baixar, usar os arquivos existentes. Não houve nova rodada de benchmarks, análise das referências ou ASR após a aprovação. A verificação final foi técnica; o agente não realizou escuta humana.

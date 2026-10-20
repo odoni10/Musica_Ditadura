@@ -52,3 +52,7 @@ temp/
 /attachments/
 *.zip
 *.m4a
+HF_TOKEN*
+.secrets*
+secrets.*
+*.secret

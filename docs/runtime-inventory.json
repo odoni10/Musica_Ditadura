@@ -1,6 +1,6 @@
 {
   "root": "/workspace/music-runtime",
-  "note": "Inventário durante produção; nenhum arquivo foi apagado. Logs e resultados em execução podem crescer. Conteúdo de credenciais não foi lido nem copiado.",
+  "note": "Inventário após exportação completa. Nenhum arquivo apagado. Apenas nomes, contagens e tamanhos; credenciais não foram lidas ou copiadas.",
   "entries": [
     {
       "name": "__pycache__",
@@ -19,6 +19,24 @@
       "type": "file",
       "files": 1,
       "bytes": 53
+    },
+    {
+      "name": "artistic-v2-full-result.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1614
+    },
+    {
+      "name": "artistic-v2-preview-result.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1616
+    },
+    {
+      "name": "artistic-v2-production.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 86595
     },
     {
       "name": "asr-control-result.json",
@@ -43,6 +61,12 @@
       "type": "directory",
       "files": 24111,
       "bytes": 1288432192
+    },
+    {
+      "name": "completion.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 71
     },
     {
       "name": "cpu-inference-pinned.txt",
@@ -91,6 +115,24 @@
       "type": "file",
       "files": 1,
       "bytes": 4149
+    },
+    {
+      "name": "final-silence.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 860
+    },
+    {
+      "name": "final-silence.stdout.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 0
+    },
+    {
+      "name": "full-v2-production.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 344555
     },
     {
       "name": "generate.py",
@@ -234,13 +276,25 @@
       "name": "native-production.log",
       "type": "file",
       "files": 1,
-      "bytes": 12778
+      "bytes": 171741
     },
     {
       "name": "native-production.stdout.log",
       "type": "file",
       "files": 1,
-      "bytes": 53
+      "bytes": 1555
+    },
+    {
+      "name": "native-quality-gate.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 268
+    },
+    {
+      "name": "native-sample-result.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 1375
     },
     {
       "name": "official-space-app.py",
@@ -271,6 +325,18 @@
       "type": "file",
       "files": 1,
       "bytes": 3927
+    },
+    {
+      "name": "production-cancelled.json",
+      "type": "file",
+      "files": 1,
+      "bytes": 352
+    },
+    {
+      "name": "reference-analysis.log",
+      "type": "file",
+      "files": 1,
+      "bytes": 3005
     },
     {
       "name": "remote-provenance.json",
