@@ -56,3 +56,9 @@ HF_TOKEN*
 .secrets*
 secrets.*
 *.secret
+
+# Videoclipe: preservar fontes e entrega, excluir intermediários recuperáveis
+/video/.venv/
+/video/cache/
+/video/output/*.partial.mp4
+/video/tmp/

@@ -1,0 +1,12 @@
+{
+  "version": "videoclipe-v1",
+  "status": "validated_ready_to_publish",
+  "scope": "full_210_seconds",
+  "audio_version": "v2-full-approved",
+  "audio_regenerated": false,
+  "runtime_log": "/workspace/video-runtime/render.log",
+  "next_action": "Publish and deliver existing completed video. Do not regenerate audio or animation for download.",
+  "validation": "docs/validation.json",
+  "output": "output/O_Peso_da_Minha_Mao_Videoclipe.mp4",
+  "completed_renderer_pid": 61967
+}

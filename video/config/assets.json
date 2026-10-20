@@ -1,0 +1,72 @@
+[
+  {
+    "id": "room",
+    "file": "assets/room.png",
+    "original_source": "/workspace/generated_images/exec-9cba6063-d273-4bf9-8654-4bbed00b87cb.png",
+    "sha256": "e1f3039950426c5f0fb7509349d1f5edc8963269dbe19137aa99302162edf403",
+    "creative_brief": "Mesa de família; isolamento, telefone azul, pão intocado.",
+    "generator": "image_gen",
+    "reference": null,
+    "style": "Gravura e monotipia pintada, papel áspero, índigo, ocre, terra queimada. Realismo social brasileiro; anatomia adulta; sem texto ou emblemas partidários."
+  },
+  {
+    "id": "hand",
+    "file": "assets/hand.png",
+    "original_source": "/workspace/generated_images/exec-4c661ae9-7392-4a9b-b67e-70c9b3248b4f.png",
+    "sha256": "4110bab660726c10ac72687602121e3f728b7c0d9e03d6bab3f3994506b070da",
+    "creative_brief": "Palma adulta com um pequeno papel e uma sombra grande; responsabilidade.",
+    "generator": "image_gen",
+    "reference": "assets/room.png",
+    "style": "Gravura e monotipia pintada, papel áspero, índigo, ocre, terra queimada. Realismo social brasileiro; anatomia adulta; sem texto ou emblemas partidários."
+  },
+  {
+    "id": "flood",
+    "file": "assets/flood.png",
+    "original_source": "/workspace/generated_images/exec-bb5c99be-5963-4130-9ff1-848a8397c124.png",
+    "sha256": "ef7f71996fd8b198c8d17d8263b5552849f7de43bae4b7c2c81c1470ae211f3b",
+    "creative_brief": "Bairro brasileiro alagado, ponte inacabada, homem diante de uma promessa não cumprida.",
+    "generator": "image_gen",
+    "reference": "assets/room.png",
+    "style": "Gravura e monotipia pintada, papel áspero, índigo, ocre, terra queimada. Realismo social brasileiro; anatomia adulta; sem texto ou emblemas partidários."
+  },
+  {
+    "id": "friends",
+    "file": "assets/friends.png",
+    "original_source": "/workspace/generated_images/exec-c6b23fe0-1095-4966-8c79-da751d089188.png",
+    "sha256": "6fd6647e43b04db06cf9940c26d9dfccdfe9e689152578834b8d8a543bbbb894",
+    "creative_brief": "Dois amigos afastados, tecidos sem emblemas, espaço vazio entre as mãos.",
+    "generator": "image_gen",
+    "reference": "assets/room.png",
+    "style": "Gravura e monotipia pintada, papel áspero, índigo, ocre, terra queimada. Realismo social brasileiro; anatomia adulta; sem texto ou emblemas partidários."
+  },
+  {
+    "id": "window",
+    "file": "assets/window.png",
+    "original_source": "/workspace/generated_images/exec-7ac0e562-f608-4a1c-8e02-c1a5dea28ead.png",
+    "sha256": "d598ab205783759ce9b72384569854bc1d9f3e9647ea301544a3e39f673d0e41",
+    "creative_brief": "Filha adulta junto à janela; cortina, silêncio, desejo de respirar.",
+    "generator": "image_gen",
+    "reference": "assets/room.png",
+    "style": "Gravura e monotipia pintada, papel áspero, índigo, ocre, terra queimada. Realismo social brasileiro; anatomia adulta; sem texto ou emblemas partidários."
+  },
+  {
+    "id": "reading",
+    "file": "assets/reading.png",
+    "original_source": "/workspace/generated_images/exec-1d0ed8fb-be3e-4ad0-a54c-b0d43e957ed5.png",
+    "sha256": "264c58b24544cd0293b192dc4f5983db3ba5f0c07ec183ebf71af5ff6a9adc78",
+    "creative_brief": "Mãos examinando papéis; telefone virado para baixo; pensamento independente.",
+    "generator": "image_gen",
+    "reference": "assets/room.png",
+    "style": "Gravura e monotipia pintada, papel áspero, índigo, ocre, terra queimada. Realismo social brasileiro; anatomia adulta; sem texto ou emblemas partidários."
+  },
+  {
+    "id": "reunion",
+    "file": "assets/reunion.png",
+    "original_source": "/workspace/generated_images/exec-a174df98-2176-44a0-af0c-eda404c6a2a9.png",
+    "sha256": "87694f62ae91ae36f8ec0012cd4f865dc6d942c5fda15bc9d2359e5e6d6e87b7",
+    "creative_brief": "Pai oferece o pão à filha na mesma mesa; aproximação sem euforia.",
+    "generator": "image_gen",
+    "reference": "assets/room.png",
+    "style": "Gravura e monotipia pintada, papel áspero, índigo, ocre, terra queimada. Realismo social brasileiro; anatomia adulta; sem texto ou emblemas partidários."
+  }
+]
