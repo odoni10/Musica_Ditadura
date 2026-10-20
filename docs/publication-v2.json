@@ -1,0 +1,66 @@
+{
+  "verified_at_utc": "2026-10-20T01:14:11.975492+00:00",
+  "audio_commit": "e843a66f5402f5053feaf477430b781d45b0e9b4",
+  "repository": "https://github.com/odoni10/Musica_Ditadura",
+  "branch": "main",
+  "files": [
+    {
+      "file": "O_Peso_da_Minha_Mao.mp3",
+      "url": "https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao.mp3",
+      "status": 200,
+      "content_type": "audio/mpeg",
+      "bytes_local": 8402017,
+      "method": "GET",
+      "download_bytes": 8402017,
+      "matches_local_sha256": true
+    },
+    {
+      "file": "O_Peso_da_Minha_Mao_MP3_e_Letra.zip",
+      "url": "https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao_MP3_e_Letra.zip",
+      "status": 200,
+      "content_type": "application/zip",
+      "bytes_local": 8378371,
+      "method": "GET",
+      "download_bytes": 8378371,
+      "matches_local_sha256": true
+    },
+    {
+      "file": "O_Peso_da_Minha_Mao_LETRA.txt",
+      "url": "https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao_LETRA.txt",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes_local": 1916,
+      "method": "GET",
+      "download_bytes": 1916,
+      "matches_local_sha256": true
+    },
+    {
+      "file": "O_Peso_da_Minha_Mao.wav",
+      "url": "https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao.wav",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes_local": 60480132,
+      "method": "HEAD",
+      "content_length": 60480132
+    },
+    {
+      "file": "O_Peso_da_Minha_Mao.flac",
+      "url": "https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao.flac",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "bytes_local": 21957521,
+      "method": "HEAD",
+      "content_length": 21957521
+    },
+    {
+      "file": "parametros-v2.json",
+      "url": "https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/parametros-v2.json",
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "bytes_local": 3722,
+      "method": "GET",
+      "download_bytes": 3722,
+      "matches_local_sha256": true
+    }
+  ]
+}

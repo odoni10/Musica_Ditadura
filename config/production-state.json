@@ -2,11 +2,13 @@
   "current_version": "v2",
   "v1_status": "discarded_artistic_direction_preserved_as_technical_reference",
   "v1_full_generation": "cancelled_before_audio_completion",
-  "v2_status": "complete_verified_ready_to_publish",
-  "next_allowed_action": "Publish final audio and complete lyrics",
+  "v2_status": "complete_published",
+  "next_allowed_action": "Deliver existing final audio and complete lyrics; do not regenerate",
   "full_generation_authorized": true,
   "approval_required": false,
   "references_private_local_only": true,
   "unavailable_attachment": "musica.zip exceeds tool transfer limit of 32 MiB",
-  "approval_evidence": "Usuário: pode continuar e no fim manda a letra completa junta"
+  "approval_evidence": "Usuário: pode continuar e no fim manda a letra completa junta",
+  "publication_report": "docs/publication-v2.json",
+  "final_directory": "/workspace/Musica_Ditadura/final"
 }

@@ -2,8 +2,6 @@
 
 Canção original em português brasileiro. A letra em [lyrics/letra.txt](lyrics/letra.txt) está preservada.
 
-**Estado atual: V1 descartada por direção artística.** A geração integral anterior foi cancelada e a automação de finalização encerrada. Áudios, scripts, resultados e commits anteriores foram preservados como referência técnica. A prévia antiga com voz feminina não é uma base aprovada para a música final.
-
 **Música completa V2 concluída: 3min30s.** Direção masculina adulta médio-grave, MPB acústica sóbria e tensa, 65 BPM e ré menor. O usuário aprovou a prévia e autorizou a produção integral. A letra original foi preservada. Veja [o relatório final](docs/relatorio-final-v2.md) e [os parâmetros](final/parametros-v2.json).
 
 ## Downloads finais
@@ -16,9 +14,11 @@ Canção original em português brasileiro. A letra em [lyrics/letra.txt](lyrics
 
 Arquivos em `/workspace/Musica_Ditadura/final/`, todos menores que 100 MiB. Verificação técnica e hashes em `final/validation-report.json` e `final/SHA256SUMS.txt`. A V1 descartada e as prévias continuam preservadas.
 
-## Prévia V2 pronta para avaliação
+## Prévia V2 aprovada
 
-[Ouvir ou baixar MP3 da V2 — 30 segundos](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/music/samples/mpb-masculina-v2-preview-30s.mp3). MP3 estéreo, 48 kHz, 320 kbps. [FLAC original preservado](samples/mpb-masculina-v2-preview-30s.flac). A execução terminou após essa única prévia. Nenhuma faixa completa V2 foi iniciada. O resultado existente foi recuperado sem nova geração ou mudança de configuração. O usuário aprovou essa direção e autorizou a faixa completa.
+[Ouvir ou baixar MP3 da V2 — 30 segundos](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/music/samples/mpb-masculina-v2-preview-30s.mp3). MP3 estéreo, 48 kHz, 320 kbps. [FLAC original preservado](samples/mpb-masculina-v2-preview-30s.flac). O runner da prévia terminou após esses 30 s. A faixa integral foi produzida depois da aprovação do usuário. O resultado existente foi recuperado sem nova geração ou mudança de configuração. O usuário aprovou essa direção e autorizou a faixa completa.
+
+**Histórico: V1 descartada por direção artística.** A geração integral anterior foi cancelada e a automação de finalização encerrada. Áudios, scripts, resultados e commits anteriores foram preservados como referência técnica. A prévia antiga com voz feminina não é uma base aprovada para a música final.
 
 As referências enviadas ficam somente em `/workspace/attachments/` e `/workspace/music-reference/v2/`. Não são enviadas ao GitHub nem passadas ao gerador como cover, amostra, clonagem ou continuação de áudio. Servem para extrair características abstratas. `musica.zip` excedeu o limite de transferência de 32 MiB; a análise usa o MP3 combinado e os cinco stems presentes em `vozes.zip`.
 
@@ -50,7 +50,7 @@ Pesos estão em `/workspace/Musica_Ditadura/tools/ACE-Step-1.5/checkpoints/`. O 
 
 Python: `/workspace/music-runtime/venv/bin/python`; CPU, 32 GiB, sem GPU. Reutilizar pesos existentes. A prévia foi concluída e aprovada. A execução concluída foi `scripts/generate_full_v2.py`, log `/workspace/music-runtime/full-v2-production.log` e resultado `/workspace/music-runtime/artistic-v2-full-result.json`. O script gera uma única faixa integral e exporta MP3/WAV/FLAC, letra completa e pacote ZIP. Conferir processos/resultados antes de agir; recuperar arquivos existentes em vez de duplicar a geração. Os runners V1 permanecem bloqueados.
 
-Para restaurar uma instalação ausente, `bash scripts/install.sh` prepara as dependências CPU e verifica a presença dos pesos antes de baixar algo. O script não deve ser executado para reiniciar a produção atual. Os scripts usam os caminhos deste ambiente em `/workspace`. As 55 verificações existentes de claude-music passaram durante a instalação.
+Para restaurar uma instalação ausente, `bash scripts/install.sh` prepara as dependências CPU e verifica a presença dos pesos antes de baixar algo. O instalador não é necessário para ouvir ou baixar a entrega existente. Os scripts usam os caminhos deste ambiente em `/workspace`. As 55 verificações existentes de claude-music passaram durante a instalação.
 
 O Space público do Hugging Face foi tentado como alternativa gratuita, mas retornou erro de tarefa GPU e depois quota anônima esgotada; nenhum áudio remoto foi obtido. A produção continua local. Não há serviço pago nem credencial necessária para executar os modelos públicos já presentes. Se autenticação opcional for utilizada no futuro, forneça `HF_TOKEN` apenas pelo armazenamento seguro do ambiente, nunca em arquivos do projeto.
 

@@ -25,3 +25,5 @@ Projeto: `/workspace/Musica_Ditadura`; repositório `https://github.com/odoni10/
 | validation-report.json | 1704 |
 
 Somente no ambiente: dependências e pesos em `tools/ACE-Step-1.5/checkpoints/`, fontes de terceiros em `tools/`, venv/cache/Hugging Face/diagnósticos/logs em `/workspace/music-runtime/`, referências enviadas em `/workspace/attachments/` e `/workspace/music-reference/`, e originais de trabalho em `/workspace/music-output/`. Nada foi apagado. Inventário atualizado em `docs/runtime-inventory.json`. GitHub recebe apenas artefatos do projeto: letra, prompts, configurações, scripts, amostras, documentação e arquivos finais; nunca pesos, caches, ambientes, referências ou credenciais.
+
+Links públicos finais verificados com HTTP 200. MP3, ZIP, letra TXT e parâmetros JSON baixados conferem com os hashes locais; WAV e FLAC tiveram tamanho HTTP conferido. Evidências em `docs/publication-v2.json`. Os modelos e referências não foram enviados ao GitHub.
