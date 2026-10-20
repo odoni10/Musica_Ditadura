@@ -1,0 +1,314 @@
+[
+  {
+    "id": "s01",
+    "file": "assets/s01.png",
+    "scene": "A chegada ao bairro",
+    "source_sheet": "01",
+    "half": "top",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "a953e413de98c6afb1304a2696d453226d000f946fe83c43582ccb73257a19ef",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s02",
+    "file": "assets/s02.png",
+    "scene": "A distância à mesa",
+    "source_sheet": "01",
+    "half": "bottom",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "07c3d6ee15555c9e12645b01decd4d69d3afd746fcae5acae3db16adbaafc2e3",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s03",
+    "file": "assets/s03.png",
+    "scene": "Antes de compartilhar",
+    "source_sheet": "02",
+    "half": "top",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "f6a76a018899fbea1833bc76df27ff587a7c3328fc91fd48f7d6b04448692c66",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s04",
+    "file": "assets/s04.png",
+    "scene": "O alimento esquecido",
+    "source_sheet": "02",
+    "half": "bottom",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "0489bdb7f60bbe3a790097323b0b8c9d63b0ba4586c3317853a2c8e0231c034c",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s05",
+    "file": "assets/s05.png",
+    "scene": "Abrir espaço para respirar",
+    "source_sheet": "03",
+    "half": "top",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "d81698c95b3b60c90c1363c0fae546a4d62dbca0c6cdea4d42f1cb38a51bd7b7",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s06",
+    "file": "assets/s06.png",
+    "scene": "Uma porta entre nós",
+    "source_sheet": "03",
+    "half": "bottom",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "79425df2d7042307fbc798c18dc7b99cff92e52eed915fc6554a0ad9265da81c",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s07",
+    "file": "assets/s07.png",
+    "scene": "Certezas levadas pelo vento",
+    "source_sheet": "04",
+    "half": "top",
+    "size": [
+      1183,
+      665
+    ],
+    "sha256": "40f9dfc4aabc57e5fd0ffb91204942b3b620eb2e8300b500cd353b4d45065d0c",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s08",
+    "file": "assets/s08.png",
+    "scene": "A dúvida diante do espelho",
+    "source_sheet": "04",
+    "half": "bottom",
+    "size": [
+      1183,
+      665
+    ],
+    "sha256": "883d890be73ca022377842b21dfe7ff6a23fb449f58d4eb3a32d1520c4fa005d",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s09",
+    "file": "assets/s09.png",
+    "scene": "As pessoas da fila",
+    "source_sheet": "05",
+    "half": "top",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "a4d1610dd982e63208dbe8fcfad4b975e4f9510977e200a961529f20e007987d",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s10",
+    "file": "assets/s10.png",
+    "scene": "O instante da escolha",
+    "source_sheet": "05",
+    "half": "bottom",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "3481fecd75b58c3d586fb9202ff63960f871f7a3bdd3e2397a9a5ef8927e905c",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s11",
+    "file": "assets/s11.png",
+    "scene": "A vida no ônibus",
+    "source_sheet": "06",
+    "half": "top",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "0e62cf972265c20dd604be435e7dce3ca3319047eef3aef0846faa7b25fccf7f",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s12",
+    "file": "assets/s12.png",
+    "scene": "A espera e o cuidado",
+    "source_sheet": "06",
+    "half": "bottom",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "79abb79694d16edc5ba4fce1f0e850371a849dbe3e1d08948aed1dad6441dfa0",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s13",
+    "file": "assets/s13.png",
+    "scene": "A ponte interrompida",
+    "source_sheet": "07",
+    "half": "top",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "c629f2b04d7353d6a6e70bc3882dcda533b15ebd262891868de986d32c0dfb94",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s14",
+    "file": "assets/s14.png",
+    "scene": "O que a água levou",
+    "source_sheet": "07",
+    "half": "bottom",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "354c6c44b7f42eab488be583f10ec4dc49bf3ff9f1d7df3f74ed189d8180f440",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s15",
+    "file": "assets/s15.png",
+    "scene": "O amigo atrás do portão",
+    "source_sheet": "08",
+    "half": "top",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "ce29d9ea2f5e0353210e0772d1e2b11e26dcc0cbbb53cf9d55a4894e7fd07ed7",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s16",
+    "file": "assets/s16.png",
+    "scene": "Caminhos que se afastam",
+    "source_sheet": "08",
+    "half": "bottom",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "d2221b77a65eb55fa3d9c972d2f278590e0978b7af43bfcec64cb936a448fb25",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s17",
+    "file": "assets/s17.png",
+    "scene": "Conferir antes de acreditar",
+    "source_sheet": "09",
+    "half": "top",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "3b7ace69a54c65737782b548ec1dd15afb7fcaa9a9ff6624f05bec201bf0ebd4",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s18",
+    "file": "assets/s18.png",
+    "scene": "Aprender a escutar",
+    "source_sheet": "09",
+    "half": "bottom",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "a4087cd74f54a534df383947546b6ac03ec9b942a11c83c6fdc2f65b56d8866f",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s19",
+    "file": "assets/s19.png",
+    "scene": "Uma pergunta em comunidade",
+    "source_sheet": "10",
+    "half": "top",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "e733b1ce2d1ae8bf3404ae50fddebdf130fd0090ea79767e054e2db7d407cc24",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s20",
+    "file": "assets/s20.png",
+    "scene": "Acompanhar o que foi prometido",
+    "source_sheet": "10",
+    "half": "bottom",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "227a22cf2f744e06ca4a747460e20aa5095753adddbfc194a2c60da867897763",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s21",
+    "file": "assets/s21.png",
+    "scene": "Um pequeno reparo coletivo",
+    "source_sheet": "11",
+    "half": "top",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "ef6b80925f14d6f257c2edf62ab33e9b643dd45ab6d5008838cbd454cad0237d",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s22",
+    "file": "assets/s22.png",
+    "scene": "O portão se abre",
+    "source_sheet": "11",
+    "half": "bottom",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "a6e4df72d3785da2495325a24ef375b8e63082ca5b3064992161d3e195d7c3b5",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s23",
+    "file": "assets/s23.png",
+    "scene": "Repartir o pão",
+    "source_sheet": "12",
+    "half": "top",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "2889d1c8f2536f4ba35c34e321aa7fedcea15b63ae406c412aebecb97c64750b",
+    "uses_in_timeline": 1
+  },
+  {
+    "id": "s24",
+    "file": "assets/s24.png",
+    "scene": "A casa por dentro, vista de fora",
+    "source_sheet": "12",
+    "half": "bottom",
+    "size": [
+      1182,
+      665
+    ],
+    "sha256": "fe15182877d1c6ffc2246e2ef561b43d218e444e3d46a3334da8cc8d1bdb97be",
+    "uses_in_timeline": 1
+  }
+]

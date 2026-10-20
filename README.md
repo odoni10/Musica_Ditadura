@@ -6,7 +6,8 @@ Canção original em português brasileiro. A letra em [lyrics/letra.txt](lyrics
 
 ## Downloads finais
 
-- [Videoclipe completo — MP4, Full HD, 3min30s](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/video/output/O_Peso_da_Minha_Mao_Videoclipe.mp4) · [Projeto de animação](video/README.md)
+- [Videoclipe V2 — 24 cenas distintas, MP4, Full HD, 3min30s](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/video-v2/output/O_Peso_da_Minha_Mao_Videoclipe_V2.mp4) · [Projeto da revisão](video-v2/README.md)
+- [Primeiro videoclipe preservado](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/video/output/O_Peso_da_Minha_Mao_Videoclipe.mp4) · [Projeto V1](video/README.md)
 
 - [MP3 — 320 kbps, 48 kHz](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao.mp3)
 - [Pacote MP3 + letra completa + parâmetros](https://raw.githubusercontent.com/odoni10/Musica_Ditadura/main/final/O_Peso_da_Minha_Mao_MP3_e_Letra.zip)
@@ -46,6 +47,7 @@ Pesos estão em `/workspace/Musica_Ditadura/tools/ACE-Step-1.5/checkpoints/`. O 
 - `docs/`: relatório de produção e inventário do ambiente.
 - `final/`: MP3 e WAV finais após conclusão.
 - `video/`: videoclipe completo, sete ilustrações originais, timeline, scripts de animação, storyboard e documentação. A música V2 existente é a trilha integral.
+- `video-v2/`: revisão visual com 24 imagens novas, usadas uma vez cada, pintura mais suave e maior variedade de ambientes e luz; sem créditos nominais.
 
 `/workspace/music-runtime/` contém venv, cache de pacotes, cache Hugging Face/Whisper, scripts originais, logs de tentativas, requisições da API, arquivos de validação e um controle de ASR com fala sintética. Esse controle não é música nem parte da entrega. `docs/runtime-inventory.json` inventaria todas as entradas desse diretório durante a produção. Nada foi apagado; scripts, manifestos e amostras úteis foram copiados antes da organização. `/workspace/music-output/` preserva a composição, letra e áudios brutos de trabalho. Diretórios vazios de tentativas interrompidas e logs são temporários.
 

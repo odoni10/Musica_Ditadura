@@ -1,0 +1,482 @@
+{
+  "title": "O Peso da Minha Mão",
+  "version": "videoclipe-v2",
+  "duration": 210,
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "seed": 190102126,
+  "audio": "../final/O_Peso_da_Minha_Mao.wav",
+  "audio_sha256": "1fdbf4fbfa7bb6c0566783a79c5fc9b1f61d28c8ccf8e394ea6ba626588cdff4",
+  "shots": [
+    {
+      "start": 0.0,
+      "start_frame": 0,
+      "asset": "s01",
+      "narrative": "A chegada ao bairro",
+      "camera_start": [
+        0.5,
+        0.5,
+        1.025
+      ],
+      "camera_end": [
+        0.515,
+        0.495,
+        1.09
+      ],
+      "transition_seconds": 0,
+      "end_frame": 182,
+      "end": 7.583333333333333
+    },
+    {
+      "start": 7.583333333333333,
+      "start_frame": 182,
+      "asset": "s02",
+      "narrative": "A distância à mesa",
+      "camera_start": [
+        0.49,
+        0.5,
+        1.07
+      ],
+      "camera_end": [
+        0.51,
+        0.5,
+        1.07
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 380,
+      "end": 15.833333333333334
+    },
+    {
+      "start": 15.833333333333334,
+      "start_frame": 380,
+      "asset": "s03",
+      "narrative": "Antes de compartilhar",
+      "camera_start": [
+        0.51,
+        0.5,
+        1.1
+      ],
+      "camera_end": [
+        0.5,
+        0.5,
+        1.035
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 572,
+      "end": 23.833333333333332
+    },
+    {
+      "start": 23.833333333333332,
+      "start_frame": 572,
+      "asset": "s04",
+      "narrative": "O alimento esquecido",
+      "camera_start": [
+        0.5,
+        0.49,
+        1.035
+      ],
+      "camera_end": [
+        0.49,
+        0.51,
+        1.085
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 775,
+      "end": 32.291666666666664
+    },
+    {
+      "start": 32.291666666666664,
+      "start_frame": 775,
+      "asset": "s05",
+      "narrative": "Abrir espaço para respirar",
+      "camera_start": [
+        0.5,
+        0.5,
+        1.025
+      ],
+      "camera_end": [
+        0.515,
+        0.495,
+        1.09
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 963,
+      "end": 40.125
+    },
+    {
+      "start": 40.125,
+      "start_frame": 963,
+      "asset": "s06",
+      "narrative": "Uma porta entre nós",
+      "camera_start": [
+        0.49,
+        0.5,
+        1.07
+      ],
+      "camera_end": [
+        0.51,
+        0.5,
+        1.07
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 1149,
+      "end": 47.875
+    },
+    {
+      "start": 47.875,
+      "start_frame": 1149,
+      "asset": "s07",
+      "narrative": "Certezas levadas pelo vento",
+      "camera_start": [
+        0.51,
+        0.5,
+        1.1
+      ],
+      "camera_end": [
+        0.5,
+        0.5,
+        1.035
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 1346,
+      "end": 56.083333333333336
+    },
+    {
+      "start": 56.083333333333336,
+      "start_frame": 1346,
+      "asset": "s08",
+      "narrative": "A dúvida diante do espelho",
+      "camera_start": [
+        0.5,
+        0.49,
+        1.035
+      ],
+      "camera_end": [
+        0.49,
+        0.51,
+        1.085
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 1555,
+      "end": 64.79166666666667
+    },
+    {
+      "start": 64.79166666666667,
+      "start_frame": 1555,
+      "asset": "s09",
+      "narrative": "As pessoas da fila",
+      "camera_start": [
+        0.5,
+        0.5,
+        1.025
+      ],
+      "camera_end": [
+        0.515,
+        0.495,
+        1.09
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 1776,
+      "end": 74.0
+    },
+    {
+      "start": 74.0,
+      "start_frame": 1776,
+      "asset": "s10",
+      "narrative": "O instante da escolha",
+      "camera_start": [
+        0.49,
+        0.5,
+        1.07
+      ],
+      "camera_end": [
+        0.51,
+        0.5,
+        1.07
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 1994,
+      "end": 83.08333333333333
+    },
+    {
+      "start": 83.08333333333333,
+      "start_frame": 1994,
+      "asset": "s11",
+      "narrative": "A vida no ônibus",
+      "camera_start": [
+        0.51,
+        0.5,
+        1.1
+      ],
+      "camera_end": [
+        0.5,
+        0.5,
+        1.035
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 2203,
+      "end": 91.79166666666667
+    },
+    {
+      "start": 91.79166666666667,
+      "start_frame": 2203,
+      "asset": "s12",
+      "narrative": "A espera e o cuidado",
+      "camera_start": [
+        0.5,
+        0.49,
+        1.035
+      ],
+      "camera_end": [
+        0.49,
+        0.51,
+        1.085
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 2418,
+      "end": 100.75
+    },
+    {
+      "start": 100.75,
+      "start_frame": 2418,
+      "asset": "s13",
+      "narrative": "A ponte interrompida",
+      "camera_start": [
+        0.5,
+        0.5,
+        1.025
+      ],
+      "camera_end": [
+        0.515,
+        0.495,
+        1.09
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 2643,
+      "end": 110.125
+    },
+    {
+      "start": 110.125,
+      "start_frame": 2643,
+      "asset": "s14",
+      "narrative": "O que a água levou",
+      "camera_start": [
+        0.49,
+        0.5,
+        1.07
+      ],
+      "camera_end": [
+        0.51,
+        0.5,
+        1.07
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 2852,
+      "end": 118.83333333333333
+    },
+    {
+      "start": 118.83333333333333,
+      "start_frame": 2852,
+      "asset": "s15",
+      "narrative": "O amigo atrás do portão",
+      "camera_start": [
+        0.51,
+        0.5,
+        1.1
+      ],
+      "camera_end": [
+        0.5,
+        0.5,
+        1.035
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 3071,
+      "end": 127.95833333333333
+    },
+    {
+      "start": 127.95833333333333,
+      "start_frame": 3071,
+      "asset": "s16",
+      "narrative": "Caminhos que se afastam",
+      "camera_start": [
+        0.5,
+        0.49,
+        1.035
+      ],
+      "camera_end": [
+        0.49,
+        0.51,
+        1.085
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 3292,
+      "end": 137.16666666666666
+    },
+    {
+      "start": 137.16666666666666,
+      "start_frame": 3292,
+      "asset": "s17",
+      "narrative": "Conferir antes de acreditar",
+      "camera_start": [
+        0.5,
+        0.5,
+        1.025
+      ],
+      "camera_end": [
+        0.515,
+        0.495,
+        1.09
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 3510,
+      "end": 146.25
+    },
+    {
+      "start": 146.25,
+      "start_frame": 3510,
+      "asset": "s18",
+      "narrative": "Aprender a escutar",
+      "camera_start": [
+        0.49,
+        0.5,
+        1.07
+      ],
+      "camera_end": [
+        0.51,
+        0.5,
+        1.07
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 3719,
+      "end": 154.95833333333334
+    },
+    {
+      "start": 154.95833333333334,
+      "start_frame": 3719,
+      "asset": "s19",
+      "narrative": "Uma pergunta em comunidade",
+      "camera_start": [
+        0.51,
+        0.5,
+        1.1
+      ],
+      "camera_end": [
+        0.5,
+        0.5,
+        1.035
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 3939,
+      "end": 164.125
+    },
+    {
+      "start": 164.125,
+      "start_frame": 3939,
+      "asset": "s20",
+      "narrative": "Acompanhar o que foi prometido",
+      "camera_start": [
+        0.5,
+        0.49,
+        1.035
+      ],
+      "camera_end": [
+        0.49,
+        0.51,
+        1.085
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 4147,
+      "end": 172.79166666666666
+    },
+    {
+      "start": 172.79166666666666,
+      "start_frame": 4147,
+      "asset": "s21",
+      "narrative": "Um pequeno reparo coletivo",
+      "camera_start": [
+        0.5,
+        0.5,
+        1.025
+      ],
+      "camera_end": [
+        0.515,
+        0.495,
+        1.09
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 4368,
+      "end": 182.0
+    },
+    {
+      "start": 182.0,
+      "start_frame": 4368,
+      "asset": "s22",
+      "narrative": "O portão se abre",
+      "camera_start": [
+        0.49,
+        0.5,
+        1.07
+      ],
+      "camera_end": [
+        0.51,
+        0.5,
+        1.07
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 4587,
+      "end": 191.125
+    },
+    {
+      "start": 191.125,
+      "start_frame": 4587,
+      "asset": "s23",
+      "narrative": "Repartir o pão",
+      "camera_start": [
+        0.51,
+        0.5,
+        1.1
+      ],
+      "camera_end": [
+        0.5,
+        0.5,
+        1.035
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 4818,
+      "end": 200.75
+    },
+    {
+      "start": 200.75,
+      "start_frame": 4818,
+      "asset": "s24",
+      "narrative": "A casa por dentro, vista de fora",
+      "camera_start": [
+        0.5,
+        0.49,
+        1.035
+      ],
+      "camera_end": [
+        0.49,
+        0.51,
+        1.085
+      ],
+      "transition_seconds": 0.65,
+      "end_frame": 5040,
+      "end": 210.0
+    }
+  ],
+  "unique_artworks": 24,
+  "reused_artworks": 0,
+  "named_credits": false,
+  "sync_method": "Montagem narrativa, cortes próximos a ataques existentes (±0,65 s) e resposta suave à energia. Sem alinhamento palavra a palavra.",
+  "audio_processing": "Master V2 integral, sem nova síntese, velocidade ou edição; AAC 256 kbps.",
+  "render": {
+    "codec": "libx264",
+    "preset": "veryfast",
+    "crf": 21,
+    "maxrate": "3200k",
+    "bufsize": "6400k",
+    "pixel_format": "yuv420p"
+  }
+}

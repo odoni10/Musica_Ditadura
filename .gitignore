@@ -62,3 +62,6 @@ secrets.*
 /video/cache/
 /video/output/*.partial.mp4
 /video/tmp/
+/video-v2/output/*.partial.mp4
+/video-v2/.venv/
+/video-v2/tmp/
